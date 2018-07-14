@@ -161,6 +161,8 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  var text = `Photo of ${restaurant.name}`;
+  image.setAttribute("alt", text);
   li.append(image);
 
   const name = document.createElement('h1');
@@ -208,3 +210,6 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     self.markers.push(marker);
   });
 } */
+
+// const focusMap = document.querySelector('#map');
+// focusMap.setAttribute('tabindex', '-1');
