@@ -151,10 +151,10 @@ nav h1 a {
   padding: 0 10px;
   width: 90%;
 }
-#neighborhoods-select:focus, #cuisines-select:focus {
+#neighborhoods-select:focus,
+#cuisines-select:focus {
 	outline: 1.5px solid #f18200;
 }
-
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
@@ -183,7 +183,6 @@ nav h1 a {
   margin: 0;
   max-width: 100%;
   min-height: 248px;
-  /* min-width: 100%; */
 }
 #restaurants-list li h1 {
   color: #f18200;
@@ -212,7 +211,6 @@ nav h1 a {
   text-transform: uppercase;
 	min-height: 1.2em;
 }
-
 /* ====================== Restaurant Details ====================== */
 .inside header {
   width: 100%;
@@ -306,7 +304,6 @@ nav h1 a {
 #reviews-list li div {
 	width: 150px;
 	background-color: #333;
-	/* border-radius: 10px; */
   padding: 7px 0 1px 5px;
 }
 .author {
@@ -329,8 +326,6 @@ nav h1 a {
 	padding: 5px;
 	font-size: 12pt;
 }
-
-
 /* ====================== Responsive Design ====================== */
 @media screen and (max-width: 650px) {
 	nav h1 a, #restaurant-name {
@@ -390,7 +385,3 @@ nav h1 a {
 		width: 533.33px;
 	}
 }
-/* :hover,
-:focus {
-	outline: 1.5px solid #f18200;
-} */
