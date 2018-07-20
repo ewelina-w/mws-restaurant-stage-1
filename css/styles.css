@@ -397,19 +397,13 @@ nav h1 a {
 		width: 533.33px;
 	}
 }
+
 @media screen and (min-width: 650px) {
-	/* #neighborhoods-select {
-		width: 40%;
-	}
-	#cuisines-select {
-		width: 40%;
-	} */
 	#maincontent {
 		flex-direction: row;
 	}
 	.filter-options select {
 		width: 40%;
-			/* justify-content: space-evenly; */
 	}
 	.filter-options {
 		flex-direction: row;
@@ -438,5 +432,14 @@ nav h1 a {
 	}
 	#maincontent {
 		flex-direction: row;
+	}
+	#reviews-list li div {
+		width: 100%;
+	}
+	.author, .date {
+		line-height: normal;
+	}
+	.value {
+		width: 100%;
 	}
 }
